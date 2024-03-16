@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @font-face {
+        font-family: gohu;
+        src: url('/fonts/gohu.woff') format('woff');
+      }
+      body {
+        background-image: url("/images/stars_rain.gif");
+      }
+      .collapse {
+        cursor: pointer; 
+      }
+      .collapse:hover {
+        color:  #adadad;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="icon" href="/images/favicon.png">
+    <link href="/main.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <p style="text-align:center">✩₊˚.⋆☾⋆⁺₊✧</p>
+    <p style="text-align:center"><a href="https://orchidcnr.neocities.org">home</a> ✧ <a href="https://orchidcnr.neocities.org/about">about</a> ✧ <a href="https://orchidcnr.neocities.org/music">music</a> ✧ <a href="https://orchid.wtf/blog">blog</a></p>
+    <center>
+    <div class="box">
+    <h1>2024 media blog</h1>
+    <p>hi! thanks for caring enough to click this far! this blog is split into months for easier organization as there's a lot here. i play a lot of weird games i can't imagine you've heard of before, so maybe you'll find something interesting reading this.</p>
+    <h2 class="collapse" style="width: 50px;" onclick="document.getElementById('january-collapse').hidden = !document.getElementById('january-collapse').hidden">january</h2>
+    <div id="january-collapse" hidden>
+    <p><b style="font-size: 20px;">DOOM</b> (GBA, 2001) ~ Jan 1st</p>
+    <img src="/images/media-blog/doom_box.jpg" width="17.2%" height="17.2%" align=right style="margin:10px;">
+    <img src="/images/media-blog/doom_screenshot.png" align=right style="margin:10px;">
+    <p>obviously i adore DOOM, but this port really isn't the best. of course the fact that it's on the GBA doesn't help with it looking like nothing more than a hodgepodge of muddy pixels at times, but my main issue with this version is the new levels. from what i can tell they're the same levels that were added in the Jaguar port, and they're really not all the great. you can definitely tell they weren't designed by the same team as there will be occasionally be times where the exit is in some random corner or you have to dunk yourself into some random pool of water to continue. it's not *bad*, just a far cry from the great level design present in the rest of the game.</p>
+    <p align=right style="font-size: 8px; position: relative; right: 5px; bottom: 50px;"><i>image credit to DoomWiki.org</i></p>
+    </div>
+    </div>
+    <iframe id="footer" onload="resizeIframe()" loading="lazy" src="https://orchid.wtf/footer" scrolling="no" allowtransparency="true" style="width: 100%; border: none; background-color: none;"></iframe>
+    </center>
+  </body>
+</html>
